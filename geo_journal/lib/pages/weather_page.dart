@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:geo_journal/models/weather_model.dart';
 import 'package:geo_journal/services/weather_service.dart';
 import 'package:lottie/lottie.dart';
+import 'city_weather_page.dart';
 
 class WeatherPage extends StatefulWidget {
   const WeatherPage({super.key});
@@ -69,6 +70,20 @@ class _WeatherPageState extends State<WeatherPage> {
             Text('${_weather?.temperature.round()}°C'),
 
             Text(_weather?.mainCondition ?? ""),
+
+            SizedBox(height: 32),
+
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const CityWeatherPage(),
+                  ),
+                );
+              },
+              child: const Text('Sprawdź pogodę w innych miastach'),
+            ),
           ],
         ),
       ),
