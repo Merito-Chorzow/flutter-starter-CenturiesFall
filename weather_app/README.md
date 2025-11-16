@@ -1,16 +1,3 @@
-# geo_journal
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Wheather_app - Aplikacja do sprawdzania pogody
+Aplikacja do sprawdzania pogody w w różnych miastach oraz obecnym na podstawie lokalizacji, aplikacja
+posiada widoki oraz możliwość zmiany ekranu na inną stronę. Użyty został język flutter, dart. Aplikacja działa na emulatorze z android studio.
